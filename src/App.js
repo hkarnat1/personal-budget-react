@@ -1,9 +1,9 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import {
   BrowserRouter as Router,
   Routes,
-  Route
+  Route,
 } from "react-router-dom";
 
 
@@ -14,6 +14,7 @@ import Footer from './Footer/Footer';
 import AboutPage from './AboutPage/AboutPage';
 import LoginPage from './LoginPage/LoginPage';
 function App() {
+
   return (
     <Router>
       <Menu/>
